@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+--- DEBUT DE LA SIMULATION ALU ---
+--- FIN DE LA SIMULATION (SUCCES SI PAS D'ERREURS DESSUS) ---
+$finish called at time : 1 us : File "C:/tp_arquitectura/arquitectura_de_comp_TP/arquitectura_de_comp_TP.srcs/sim_1/new/tb_alu.v" Line 87

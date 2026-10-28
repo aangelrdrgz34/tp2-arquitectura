@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Oct 28 17:36:51 2026
+# Process ID         : 25808
+# Current directory  : C:/Mobilit/tp 2 arqui/tp_arquitectura-155e002d72785cd2fd69ac34b785312d4d603e16/arquitectura_de_comp_TP/arquitectura_de_comp_TP.runs/synth_1
+# Command line       : vivado.exe -log ALU_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU_top.tcl
+# Log file           : C:/Mobilit/tp 2 arqui/tp_arquitectura-155e002d72785cd2fd69ac34b785312d4d603e16/arquitectura_de_comp_TP/arquitectura_de_comp_TP.runs/synth_1/ALU_top.vds
+# Journal file       : C:/Mobilit/tp 2 arqui/tp_arquitectura-155e002d72785cd2fd69ac34b785312d4d603e16/arquitectura_de_comp_TP/arquitectura_de_comp_TP.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-ANGH4RU
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13600H
+# CPU Frequency      : 3302 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 34029 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36176 MB
+# Available Virtual  : 20693 MB
+#-----------------------------------------------------------
+source ALU_top.tcl -notrace

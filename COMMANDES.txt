@@ -1,0 +1,29 @@
+
+// 5+3
+puts -nonewline $my_uart [binary format c* {5 3 0x20}] ; flush $my_uart 
+LD3
+flags : none
+
+// 10-10 
+puts -nonewline $my_uart [binary format c* {10 10 0x22}] ; flush $my_uart
+flags : zero
+
+// 200+100
+puts -nonewline $my_uart [binary format c* {200 100 0x20}] ; flush $my_uart
+LD5 LD3 LD2
+flags : carry
+
+// +100 + +50
+puts -nonewline $my_uart [binary format c* {100 50 0x20}] ; flush $my_uart
+LD7 LD4 LD2 LD1
+flags : overflow
+
+// AND
+puts -nonewline $my_uart [binary format c* {0xF0 0xAA 0x24}] ; flush $my_uart
+LD7 LD5
+flags : none
+
+// SRL
+puts -nonewline $my_uart [binary format c* {0xC0 2 0x02}] ; flush $my_uart
+LD5 LD4
+flags : none
